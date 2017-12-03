@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{82BADCC1-858D-2612-E190-EB57538BE8FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\OpenIAB\Android\OpenIAB_Android.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\Inventory.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\IOpenIAB.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\iOS\OpenIAB_iOS.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\JSON.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\OpenIAB.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\OpenIABEventManager.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\Options.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\OptionsVerifyMode.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\Purchase.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\SearchStrategy.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\SkuDetails.cs" />
+    <Compile Include="Assets\Plugins\OpenIAB\WP8\OpenIAB_WP8.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\CnInputSystem\CnInputManager.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\CnInputSystem\VirtualAxis.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\CnInputSystem\VirtualButton.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\Controllers\CommonOnScreenControl.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\Controllers\Dpad.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\Controllers\DpadAxis.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\Controllers\SensitiveJoystick.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\Controllers\SimpleButton.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\Controllers\SimpleJoystick.cs" />
+    <Compile Include="Assets\Standard Assets\CNControls\Scripts\Controllers\Touchpad.cs" />
+    <None Include="Assets\Plugins\Android\play-services-ads-license-11.6.2\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\gpgs-plugin-support-0.9.42\R.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
+    <None Include="Assets\Plugins\Android\play-services-ads-lite-license-11.6.2\third_party_licenses.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\GooglePlayGames\Plugins\Android\GooglePlayGamesManifest.plugin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\play-services-basement-license-11.6.2\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\play-services-basement-license-11.6.2\third_party_licenses.txt" />
+    <None Include="Assets\Plugins\Android\play-services-ads-lite-license-11.6.2\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\play-services-gass-license-11.6.2\AndroidManifest.xml" />
+    <None Include="Assets\GooglePlayGames\Editor\m2repository\com\google\games\gpgs-plugin-support\maven-metadata.xml" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Plugins\Android\play-services-ads-license-11.6.2\third_party_licenses.txt" />
+    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+    <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\GPGSDependencies.xml" />
+    <None Include="Assets\Plugins\Android\gpgs-plugin-support-0.9.42\res\values-v14\values-v14.xml" />
+    <None Include="Assets\Plugins\Android\play-services-gass-license-11.6.2\third_party_licenses.txt" />
+    <None Include="Assets\Plugins\Android\gpgs-plugin-support-0.9.42\res\values\values.xml" />
+    <None Include="Assets\Plugins\Android\gpgs-plugin-support-0.9.42\res\values-v11\values-v11.xml" />
+    <None Include="Assets\Plugins\Android\gpgs-plugin-support-0.9.42\AndroidManifest.xml" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>D:/Projects/Fiverr/Candy Catcher TGS/Candy_Catcher_TGS_v1/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity 2017.1.0f3/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIAB_W8Plugin">
+      <HintPath>D:/Projects/Fiverr/Candy Catcher TGS/Candy_Catcher_TGS_v1/Assets/Plugins/WP8/OpenIAB_W8Plugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

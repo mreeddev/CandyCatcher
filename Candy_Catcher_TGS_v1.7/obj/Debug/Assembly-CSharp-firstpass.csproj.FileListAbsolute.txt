@@ -1,0 +1,2 @@
+C:\_MRPersonal\MobileAppDev\CandyCatcher\CandyCatcher_v1_TGSNew\CandyCatcher\Source\Candy_Catcher_TGS_v1\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\_MRPersonal\MobileAppDev\CandyCatcher\CandyCatcher_v1_TGSNew\CandyCatcher\Source\Candy_Catcher_TGS_v1\obj\Debug\Assembly-CSharp-firstpass.dll
