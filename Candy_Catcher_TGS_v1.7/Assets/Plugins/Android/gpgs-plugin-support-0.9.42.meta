@@ -3,34 +3,32 @@ guid: fee420e9af9a801438375e7295871670
 labels:
 - gpsr
 folderAsset: yes
-timeCreated: 1512298229
+timeCreated: 1512514178
 licenseType: Free
 PluginImporter:
+  externalObjects: {}
   serializedVersion: 2
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
   isOverridable: 0
   platformData:
-    data:
-      first:
-        Android: Android
-      second:
-        enabled: 1
-        settings: {}
-    data:
-      first:
-        Any: 
-      second:
-        enabled: 0
-        settings: {}
-    data:
-      first:
-        Editor: Editor
-      second:
-        enabled: 0
-        settings:
-          DefaultValueInitialized: true
+  - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,0 +1,42 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="HomeManager">
+			<method name="OnCNinputBtn"/>
+			<method name="OnExit"/>
+			<method name="OnBucketBtn"/>
+			<method name="OnAccBtn"/>
+			<method name="MusicSetting"/>
+			<method name="OnBuy"/>
+			<method name="OnRemoveAd"/>
+			<method name="selectControl"/>
+			<method name="exitApp"/>
+			<method name="OnRestore"/>
+			<method name="OnBucketExit"/>
+			<method name="OnSave"/>
+			<method name="Onbucket2"/>
+			<method name="OnControllerSelectionExit"/>
+			<method name="SoundSetting"/>
+			<method name="Onbucket3"/>
+			<method name="OnClickPlay"/>
+			<method name="leaderboardShow"/>
+			<method name="rateUS"/>
+			<method name="MusicSetting"/>
+			<method name="selectControl"/>
+			<method name="SoundSetting"/>
+			<method name="Onbucket1"/>
+			<method name="OnSettings"/>
+		</type>
+		<type fullname="GameController">
+			<method name="closeIntruction"/>
+			<method name="OnHome"/>
+			<method name="GameOver"/>
+			<method name="OnContinueplay"/>
+			<method name="ShowRewardedAd"/>
+			<method name="shareMe"/>
+			<method name="gameContinue"/>
+			<method name="OnPlay"/>
+			<method name="OnRestart"/>
+			<method name="OnPause"/>
+		</type>
+	</assembly>
+</linker>
